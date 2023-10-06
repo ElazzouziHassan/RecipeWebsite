@@ -30,14 +30,10 @@ In your index.html file, set up the basic HTML structure with the following sect
 Link to the Bootstrap CSS and JS files in the <head> of your HTML file. You can do this by adding the following lines:
 
 ```bash
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-
 ```
 ```bash
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
-
 ```
 
 

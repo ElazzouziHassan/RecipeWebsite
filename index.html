@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RECIPE WEBSITES | Original & Delicious</title>
+    <title>RECIPE WEBSITE | Original & Delicious</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/style.css" >
+    <!-- Add a favicon -->
+    <link rel="icon" href="/favicon.ico" />
   </head>
 
   <body>
@@ -20,7 +23,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="/assets/logo.png" width="150" height="50" />
+            <img src="/assets/logo.png" width="150" height="50" alt="Recipe Website Logo" />
           </a>
           <button
             class="navbar-toggler"
@@ -37,11 +40,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./pages/Home.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+              
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -50,28 +51,32 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Recipes
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Moroccan Food</a></li>
+                  <li><a class="dropdown-item" href="#">Street Food Recipes</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Other Cultures Food</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" aria-current="page" href="./pages/contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/about.html">About Us</a>
               </li>
             </ul>
+            <!-- Add a placeholder for search functionality -->
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Search for recipes"
                 aria-label="Search"
               />
               <button class="btn btn-outline-success" type="submit">
@@ -82,10 +87,38 @@
         </div>
       </nav>
     </div>
-  </body>
-  <script
+    
+    <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
+  </body>
+  <footer class="bg-dark text-light p-3 container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Contact Us</h5>
+          <p>
+            Address: 123 Recipe Street, Foodville, Cookland
+            <br />
+            Phone: +1 (555) 123-4567
+            <br />
+            Email: info@recipewebsite.com
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="./pages/Home.html">Home</a></li>
+            <li><a href="#">Moroccan Food</a></li>
+            <li><a href="#">Street Food Recipes</a></li>
+            <li><a href="#">Other Cultures Food</a></li>
+            <li><a href="./pages/contact.html">Contact Us</a></li>
+            <li><a href="./pages/about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

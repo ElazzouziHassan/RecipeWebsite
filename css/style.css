@@ -56,4 +56,16 @@ li a{
 }
 /* end of nav bar style */
 /* ===================================================================================== */
-
+/* header style */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left{
+  margin-left: 60px;
+}
+.header-right{
+  margin-right: 60px;
+}
+/* end of header style */

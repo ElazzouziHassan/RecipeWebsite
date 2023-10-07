@@ -11,7 +11,11 @@ nav{
   justify-content: space-between;
   height: 7vh;
   border-bottom: solid 1px black;
+  position: sticky;
+  top: 0;
+  background-color: rgb(254, 255, 255);
 }
+
 .logo{
   margin-left: 60px;
   padding: 5px;
@@ -61,7 +65,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 80px;
+  height: calc(100vh - 7vh);
+  
 }
 .header-left{
   margin-left: 60px;
@@ -75,7 +80,8 @@ header{
   padding: 10px 0;
 }
 .header-left p{
-  padding: 10px 0;
+  padding: 10px 3px;
+  margin-right: 5px;
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -106,3 +112,31 @@ header{
   border-radius: 10px;
 }
 /* end of header style */
+
+/* Features style */
+.Features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 60px;
+  height: 70vh;
+}
+.feat-right{}
+.feat-card{
+  padding: 5px;
+  margin: 5px;
+}
+.feat-card h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+.feat-card p{
+  font-size: 16px;
+  font-style: italic;
+}
+.feat-right img{
+  width: 40vw;
+  height: 60vh;
+  border-radius: 5px;
+}
+/* end of Features style */

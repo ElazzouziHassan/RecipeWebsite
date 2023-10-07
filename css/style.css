@@ -61,11 +61,48 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 80px;
 }
 .header-left{
   margin-left: 60px;
 }
 .header-right{
   margin-right: 60px;
+}
+.header-left h2{
+  font-weight: bold;
+  font-size: 2.9rem;
+  padding: 10px 0;
+}
+.header-left p{
+  padding: 10px 0;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.header-actions{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-actions button{
+  padding: 5px;
+  transition: ease-in-out .4s;
+}
+#explore-btn{
+  color: aliceblue;
+  background-color: black;
+}
+#explore-btn:hover{
+  color: black;
+  background-color: aliceblue;
+}
+#ordre-btn:hover{
+  color: aliceblue;
+  background-color: black;
+}
+.header-right img{
+  width: 45vw;
+  height: 65vh;
+  border-radius: 10px;
 }
 /* end of header style */

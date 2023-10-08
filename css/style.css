@@ -121,6 +121,8 @@ header{
   justify-content: space-between;
   margin: 0px 60px;
   height: 70vh;
+  border-bottom: solid .7px lightgrey;
+  border-top: solid .7px lightgrey;
 }
 .feat-right{}
 .feat-card{
@@ -141,3 +143,59 @@ header{
   border-radius: 5px;
 }
 /* end of Features style */
+
+/* Testimonial Section style*/
+.checked {
+  color: orange;
+}
+.testimonial{
+  border-bottom: solid .7px lightgrey;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 60px;
+  border-bottom: solid .7px lightgrey;
+}
+.testimonial h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  /* padding: 10px 0; */
+}
+.testimonial span{
+  font-size: 16px;
+  font-style: italic;
+  padding: 10px 0;
+}
+.reviews{
+  display: flex;
+  align-items: center;
+  gap: 14vw;
+  margin-top: 3vh;
+}
+.customer-review{}
+.customer-review p{}
+.rating{}
+.customer-card{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.customer-card img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.customer-card h3{
+  font-size: 1.3rem;
+  font-style: oblique;
+  padding: 7px 3px;
+}
+.customer-card span{
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* end of Testimonial Section style */

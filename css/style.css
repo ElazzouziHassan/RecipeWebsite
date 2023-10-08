@@ -184,6 +184,7 @@ header{
 }
 .customer-card img{
   width: 60px;
+  object-fit: cover;
   height: 60px;
   border-radius: 50%;
 }

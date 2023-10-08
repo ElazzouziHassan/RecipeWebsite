@@ -207,7 +207,7 @@ header{
   align-items: center;
   justify-content: center;
   height: 60vh;
-  border-bottom: solid .7px lightgrey;
+  /* border-bottom: solid .7px lightgrey; */
 }
 .gallery-section h2{
   text-align: center;
@@ -241,7 +241,6 @@ header{
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  border-bottom: solid .7px lightgrey;
 }
 .cta-left{}
 .cta-left h2{
@@ -263,11 +262,75 @@ header{
   padding: 5px;
 }
 .cta-actions button{
-  width: 4vw;
+  width: 6vw;
   height: 5vh;
+  transition: .4s ease-in-out;
+}
+#order{ 
+  color: black;
+  background-color: aliceblue;
+}
+#order:hover{
+  color: aliceblue;
+  background-color: black;
+}
+#book{
+  color: aliceblue;
+  background-color: black;
+}
+#book:hover{
+  
+  color: black;
+  background-color: aliceblue;
 }
 .cta-right img{
   width: 40vw;
   border-radius: 10px;
 }
 /* end of CTA section */
+/* footer */
+footer{
+widows: 40vh;
+margin: 0px 60px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.bottom ul{
+  display: flex;
+  align-items: center;
+
+}
+.bottom span{
+ padding: 10px;
+}
+.top-right i{
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.fa-facebook-official:hover{
+  color: rgb(25, 110, 195);
+}
+.fa-instagram:hover{
+  color: purple;
+}
+.fa-twitter:hover{
+  color: rgb(25, 110, 195);
+}
+.fa-youtube-play:hover{
+  color: rgb(151, 2, 2);
+}
+.top-center ul li a:hover{
+  color: lightsalmon;
+}

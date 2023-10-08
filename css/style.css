@@ -64,7 +64,7 @@ li a{
 header{
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
   justify-content: space-between;
   height: calc(100vh - 7vh);
   

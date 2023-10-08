@@ -335,3 +335,134 @@ margin: 0px 60px;
 .top-center ul li a:hover{
   color: lightsalmon;
 }
+
+/* desktop */
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  /* Header Styles */
+  header {
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  .logo {
+    margin-left: 60px;
+  }
+  
+  .menu {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .header-actions button {
+    width: auto;
+  }
+  
+  .header-right img {
+    width: 45vw;
+    height: 65vh;
+    border-radius: 10px;
+  }
+
+  /* Features Section Styles */
+  .Features {
+    height: 70vh;
+    margin: 0 60px;
+  }
+
+  .feat-left {
+    width: 50%;
+  }
+
+  .feat-right img {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 5px;
+  }
+
+  /* Testimonial Section Styles */
+  .testimonial {
+    height: 60vh;
+    margin: 0 60px;
+  }
+
+  .reviews {
+    gap: 14vw;
+  }
+
+  .customer-card h3 {
+    font-size: 1.5rem;
+    font-style: oblique;
+    padding: 7px 3px;
+  }
+
+  /* Gallery Section Styles */
+  .gallery-section {
+    height: 60vh;
+    margin: 0 60px;
+  }
+
+  .plates img {
+    width: 20vw;
+    height: 30vh;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  /* CTA Section Styles */
+  .cta {
+    height: 70vh;
+    margin: 0 60px;
+  }
+
+  .cta-left h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 10px;
+  }
+
+  /* .cta-actions button {
+    width: auto;
+    height: auto;
+  } */
+
+  .cta-right img {
+    width: 40vw;
+    border-radius: 10px;
+  }
+
+  /* Footer Styles */
+  footer {
+    margin: 0 60px;
+  }
+
+  .top {
+    padding: 5px;
+  }
+
+  .top-right i {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .bottom {
+    gap: 40px;
+  }
+
+  .bottom ul {
+    align-items: center;
+  }
+
+  .bottom span {
+    padding: 10px;
+  }
+
+  .top-center ul li a:hover {
+    color: lightsalmon;
+  }
+}
+
+

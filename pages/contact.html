@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="r.png"> -->
+    <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
+
+    <style>
+        /* Custom CSS for the contact form */
+        body {
+            font-family: serif, sans-serif;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 600px;
+            /* background-color: #ffffff; */
+            padding: 20px;
+            margin: 0 auto;
+            /* border: 1px solid #e0e0e0; */
+            border-radius: 4px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        }
+
+        hr{
+            border: none;
+            border-top: 3px solid #ffbd59;
+            margin: 20px 0;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+        }
+
+        h1 {
+            font-family:  serif, monospace;
+            font-size: 34px;
+            color: #333;
+        }
+
+        p{
+            text-align: center;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .form-control {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            background-color: #ffbd59;
+            border: none;
+            padding: 7px 15px;
+            color: black;
+        }
+
+        .btn-primary:hover {
+            background-color: #fd7f32;
+        }
+        i{
+            padding: 5px;
+            margin-top: 10px;
+            color: #595858;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            width: 30px;
+
+        }
+        i:hover{
+            background-color: #ddd;
+            color: #333;
+            /* border: 5px solid #52b788; */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <hr>
+        <h1>Contact Us</h1>
+        <p>If you have any questions or just want to say hi, please send us an e-mail to recipe.food.sat@gmail.com or use the contact form below.</p>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <!-- choose one button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- <button type="button" class="btn btn-outline-secondary">Submit</button>
+            <button type="button" class="btn btn-outline-warning">Submit</button> -->
+
+
+        </form>
+        <br>
+        <p>! And don't forget to follow us.<br>
+        <!-- Facebook -->
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <!-- Instagram -->
+        <a href=""><i class="fab fa-instagram"></i></a>
+
+        <!-- Youtube -->
+        <a href=""><i class="fab fa-youtube"></i></a>
+        </p>
+</div>
+
+</body>
+</html>

@@ -1,1 +1,4 @@
 hello from oumnia
+**** Logo colors ****
+#ffbd59 rgba(255,189,89,255)
+#fd7f32 rgba(253,127,50,255)
